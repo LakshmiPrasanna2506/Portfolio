@@ -127,8 +127,9 @@ textarea:focus {
 }
 
 
-@media only screen and (max-width: 850px) {
-    .contact a[href="mailto:somishettilakshmiprasanna@gmail.com"] {
+@media only screen and (max-width: 768px) {
+    .contact-link {
         display: none;
     }
 }
+
