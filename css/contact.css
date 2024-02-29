@@ -1,0 +1,127 @@
+.contact{
+    height: 90vh;
+}
+.contact hr{
+    margin: 0%;
+    width: 72%;
+}
+.contact .wrap{
+    flex-direction: column;
+}
+.contact .wrap > *{
+    padding: 30px 0;
+}
+.contact h3{
+    width: 65%;
+    margin: 0%;
+    text-align: center;
+    color: #BAC3CF;
+    font-weight: 500;
+    z-index: -1;
+}
+.contact .socials{
+    display: flex;
+    justify-content:space-evenly;
+    width: 25%;
+}
+@media only screen and (max-width: 600px) {
+    .contact h3{
+        width: 80%;
+    }
+    .contact .socials{
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .contact h3{
+        width: 90%;
+    }
+    .contact .socials{
+        width: 40%;
+    }
+}
+
+
+
+
+
+#submit:hover {
+    box-shadow: 0 2px 2px #36FBB1;
+    top: 1px;
+}
+
+#submit {
+    position: relative;
+    display: block;
+    min-width: 130px;
+    height: 40px;
+    margin: 0 auto;
+    color: #36FBB1;
+    border: 1px solid #36FBB1;
+    border-radius: 50px;
+    background-color: #36FBB125;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Inconsolata', monospace;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    box-shadow: 0 3px 2px #36FBB1;
+}
+
+#submit {
+    appearance: auto;    
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+form{
+    color:white;
+    border: 1px solid #36FBB1;
+    border-radius: 50px;
+}
+input{
+    color:white;
+    border: 1px solid #36FBB1;
+    border-radius: 50px;
+    background-color: #061320;
+
+}
+input[type="email"]:focus {
+    outline: none;
+    border: 2px solid orange; /* Setting border color to orange */
+    box-shadow: 0 0 10px orange; /* Adding a box shadow to emphasize */
+}
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid orange; /* Setting border color to orange */
+    box-shadow: 0 0 10px orange; /* Adding a box shadow to emphasize */
+}
+textarea{
+    color:white;
+    border: 1px solid #36FBB1;
+    background-color: #061320;
+
+}
+textarea:focus {
+    outline: none;
+    border: 2px solid orange; /* Setting border color to orange */
+    box-shadow: 0 0 10px orange; /* Adding a box shadow to emphasize */
+}
