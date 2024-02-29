@@ -128,7 +128,7 @@
         grid-template-columns: 1fr 1fr 2fr 1.5fr 1.5fr;
     }
     .projectText > h2{
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         color: white;
     }
     .projectText > p{
