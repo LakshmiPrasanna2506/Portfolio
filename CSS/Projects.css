@@ -95,6 +95,7 @@
         text-align: left;
         padding-left: 20px;
         font-size: 1.2rem;
+        display: none;
     }
     .projectText > p{
         grid-area: tech;
@@ -130,6 +131,7 @@
     .projectText > h2{
         font-size: 1.2rem;
         color: white;
+        display: none;
     }
     .projectText > p{
         margin-top: 10px;
